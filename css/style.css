@@ -14,3 +14,25 @@
     width: 1000px;
     max-width: 100%;
 }
+
+/* PAGE HEADER */
+
+.page-header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 9px;
+    margin-top: 9px;
+    border: 1px solid white;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 2.2em;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+}
+
+.logo{
+   height: 60px;
+   vertical-align: middle;
+}
