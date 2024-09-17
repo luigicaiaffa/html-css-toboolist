@@ -10,18 +10,24 @@
   
 .container {
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 50px;
+    margin-top: 50px;
     width: 1000px;
     max-width: 100%;
+    background-color: white;
+}
+
+.page-bg{
+    background-color: grey;
+    background-size: cover;
+    padding-top: 10px;
 }
 
 /* PAGE HEADER */
 
 .page-header{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 9px;
-    margin-top: 9px;
-    border: 1px solid white;
+    margin: 10px 10px;
 }
 
 .title{
@@ -36,3 +42,31 @@
    height: 60px;
    vertical-align: middle;
 }
+
+/* MAIN MENU */
+
+.button-container{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.button-uno{
+    background: transparent;
+    background-color: rgb(13, 145, 221);  
+    border: 1px solid rgb(13, 145, 221);;
+    padding: 10px;
+    border-radius: 15%;
+    color: white;
+}
+
+.button-due{
+    background: transparent;
+    background-color: white;  
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 12%;
+    color: grey;
+}
+
+/* LISTA 1 */
+
