@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+
+ul{
+    list-style: none;
+}
   
 /* UTILS */
   
@@ -15,10 +19,11 @@
     width: 1000px;
     max-width: 100%;
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-bg{
-    background-color: grey;
+    background-color: #f0efef;
     background-size: cover;
     padding-top: 10px;
 }
@@ -46,8 +51,8 @@
 /* MAIN MENU */
 
 .button-container{
-    border-bottom: 1px solid gray;
-    padding: 20px;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 0;
 }
 
 .button-uno{
@@ -62,11 +67,49 @@
 .button-due{
     background: transparent;
     background-color: white;  
-    border: 1px solid gray;
+    border: 1px solid #dddddd;
     padding: 10px;
     border-radius: 12%;
-    color: grey;
+    color: #dddddd;
 }
 
-/* LISTA 1 */
+/* LISTE */
 
+.list{
+margin: 40px 0;
+}
+
+.list-item{
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.list-title{
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.list-block{
+    display: inline-block;
+    background-color: rgb(13, 145, 221);
+    padding: 7px;
+    font-size: .75em;
+    border-radius: 30%;
+    color: white;
+}
+
+.list-check{
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.list-cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+}
