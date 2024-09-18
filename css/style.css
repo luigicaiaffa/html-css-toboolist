@@ -1,45 +1,44 @@
 /* RESET */
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 ul{
-    list-style: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #f0efef;
 }
   
 /* UTILS */
   
-.container {
+.container{
     margin: 0 auto;
-    padding: 0 80px;
+    padding: 0;
     margin-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     width: 1200px;
     max-width: 100%;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.page-bg{
-    background-color: #f0efef;
-    background-size: cover;
-    padding-top: 10px;
-    padding-bottom: 259px;
-}
-
 /* PAGE HEADER */
 
 .page-header{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 10px;
+    margin: 0;
+    padding: 10px 10px;
+    background-color: white;
 }
 
 .title{
     font-weight: bold;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     display: inline-block;
     vertical-align: middle;
     height: 40px;
@@ -54,69 +53,76 @@ ul{
 
 .button-container{
     border-bottom: 1px solid #dddddd;
-    padding: 20px 0;
+    padding: 20px 80px;
 }
 
 .button-uno{
+    display: inline-block;
     color: white;
     background-color: rgb(13, 145, 221);  
     border: 1px solid rgb(13, 145, 221);
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 10px 18px;
     margin-right: 2px;
     cursor: pointer;
 }
 
 .button-due{
+    display: inline-block;
     background-color: white;  
-    border: 1px solid #dddddd;
+    color: #afafaf;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
     padding: 10px 18px;
-    border-radius: 10%;
-    color: #dddddd;
     cursor: pointer;
 }
 
 /* LISTE */
 
 .list-container{
-margin: 40px 0;
+    margin: 40px 0;
+    padding: 0 80px;
 }
 
 .list-item{
     margin-bottom: 30px;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
 .list-title{
     margin-bottom: 15px;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
 .list-block{
     display: inline-block;
     padding: 6px 10px;
-    font-size: .75em;
-    border-radius: 15%;
+    font-size: .75rem;
+    border-radius: 25px;
     color: white;
+    border: 1px solid currentColor;
+    margin-left: 5px;
+}
+
+.list-cross, .list-check{
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+    font-size: .9rem;
 }
 
 .list-check{
-    color: rgb(0, 235, 0);
-    border: 1px solid rgb(0, 235, 0);
-    border-radius: 50%;
-    padding: 3px;
+    color: green;
 }
 
 .list-cross{
     color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    padding: 3px;
 }
 
-#editorial{
+.editorial{
     background-color: rgb(13, 145, 221);
 }
 
